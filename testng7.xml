@@ -1,0 +1,16 @@
+<suite name="Suite"  parallel="tests" >
+  <test  name="TestEdge">
+	<parameter name="browser" value="edge"/>
+	<parameter name="gridURL" value="https://app.saucelabs.com/getting-started/guides/selenium"/>
+    <classes>
+      <class name="day26.Demo5"/>
+    </classes>
+  </test> 
+  <test  name="TestChrome">
+	<parameter name="browser" value="chrome"/>
+	<parameter name="gridURL" value="http://127.0.0.1:4444"/>
+    <classes>
+      <class name="day26.Demo5"/>
+    </classes>
+  </test> 
+</suite> 

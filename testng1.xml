@@ -1,0 +1,11 @@
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="day24.Demo11">
+		  <methods>
+			  <include name="testA"/>
+		  </methods>
+	  </class>	  
+    </classes>
+  </test> 
+</suite>

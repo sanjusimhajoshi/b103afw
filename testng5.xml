@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test name="Test">
+	 <parameter name="city" value="Bengaluru"/>
+	 <parameter name="area" value="Malleshwaram"/>
+    <classes>
+      <class name="day25.Demo8"/>
+    </classes>
+  </test> 
+</suite> 
